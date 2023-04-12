@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        margin: 0;
+        display: flex;
+      }
+      .gallery {
+        width: 150px;
+        border: 1px solid black;
+        /* border-radius: 10px; */
+        margin: 10px;
+      }
+      .gallery img {
+        width: 85%;
+        margin: 4px 8px 1px 12px;
+      }
+      .gallery:hover {
+        border: 2px solid brown;
+      }
+      h3 {
+        /* margin: 10px; */
+        /* padding: 0px; */
+      }
+
+      .btn {
+        border-radius: 15px 15px 15px 15px;
+        /* margin-left: 2px; */
+        position: relative;
+        left: 32px;
+        margin-bottom: 2px;
+        color: blue;
+      }
+      p {
+        margin-left: 20px;
+        color: red;
+      }
+      #hh {
+        color: red;
+        margin: -20px 16px 13px;
+      }
+      h2 {
+        display: flex;
+        color: green;
+        margin-left: 51px;
+        font-size: 18px;
+        margin-top: -4px;
+      }
+
+      .flexdemo {
+        overflow: auto;
+      }
+      .card {
+        height: 257px;
+        /* width: 100%; */
+        /* background: aqua; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 215px;
+        /* border:2px solid black; */
+      }
+      h3 {
+        position: relative;
+        top: -5px;
+        left: 12%;
+      }
+      .mobile1{
+         position: absolute;
+            top: 247px;
+            left: 194px;
+            color: green;
+            font-size: 20px;
+            font-weight: bold;
+      }
+      .mobile2{
+         position: absolute;
+    top: 248px;
+    left: 45%;
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+      }
+      .mobile3{
+         position: absolute;
+    top: 248px;
+    left: 80%;
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+      }
+     
+     
+     
+    </style>
+  </head>
+  <body>
+    <div class="flexdemo">
+      <div class="card">
+        <div class="gallery">
+          <a
+            href="https://rukminim1.flixcart.com/image/416/416/xif0q/mobile/y/9/g/-original-imagnfzyhh8gz8sd.jpeg?q=70"
+          >
+            <img
+              src="https://rukminim1.flixcart.com/image/416/416/xif0q/mobile/y/9/g/-original-imagnfzyhh8gz8sd.jpeg?q=70"
+              height="100"
+            />
+          </a>
+          <div class="info">
+            <h3>Excluve Mobile</h3>
+            <h3><p>Starting</p></h3>
+            <h3 id="hh">@Rs.20000</h3>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+        <p
+          class="mobile1">
+          Mobile
+        </p>
+
+        <div class="gallery">
+          <a
+            href="https://rukminim1.flixcart.com/image/416/416/kzx1a4w0/mixer-grinder-juicer/h/8/m/-original-imagbtubrdnpnxwd.jpeg?q=70"
+          >
+            <img
+              src="https://rukminim1.flixcart.com/image/416/416/kzx1a4w0/mixer-grinder-juicer/h/8/m/-original-imagbtubrdnpnxwd.jpeg?q=70"
+              height="100"
+            />
+          </a>
+          <div class="info">
+            <h3>Mixer Grinders</h3>
+            <h3><p>Starting</p></h3>
+            <h3 id="hh">@Rs.1499.99</h3>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+        <p
+        class="mobile2">
+        Mixer Grinders
+
+      </p>
+        <div class="gallery">
+          <a
+            href="https://rukminim1.flixcart.com/image/416/416/xif0q/computer/e/k/k/-original-imagg5jsxzthfd39.jpeg?q=70"
+          >
+            <img
+              src="https://rukminim1.flixcart.com/image/416/416/xif0q/computer/e/k/k/-original-imagg5jsxzthfd39.jpeg?q=70"
+              height="100"
+            />
+          </a>
+          <div class="info">
+            <h3>Window/Apple</h3>
+            <h3>
+              <p
+                style="color: black; position: relative; top: -18px; left: 11px"
+              >
+                Laptops
+              </p>
+            </h3>
+            <h3 id="hh">Upto 45%Off</h3>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+        <p
+        class="mobile3">
+        
+        Laptops
+
+      </p>
+      </div>
+
+      <div class="card">
+        <div class="gallery">
+          <a
+            href="https://rukminim1.flixcart.com/image/416/416/xif0q/air-conditioner-new/1/g/2/-original-imagnxcqg9ghgwkt.jpeg?q=70"
+          >
+            <img
+              src="https://rukminim1.flixcart.com/image/416/416/xif0q/air-conditioner-new/1/g/2/-original-imagnxcqg9ghgwkt.jpeg?q=70"
+              height="100"
+            />
+          </a>
+          <div class="info">
+            <h3>Air Conditioner</h3>
+            <h3><p>Starting</p></h3>
+            <h3 id="hh">@Rs.15000</h3>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+       <p style="
+       position: absolute;
+       /* top: 256px; */
+       left: 14%;
+       /* color: green; */
+       font-size: 20px;
+       font-weight: bold;
+       bottom: -163px;
+              color: green;
+   ">AC</p>
+        <div class="gallery">
+          <a
+            href="https://rukminim1.flixcart.com/image/416/416/xif0q/refrigerator-new/x/5/6/-original-imagm7rjcsguwgsj.jpeg?q=70"
+          >
+            <img
+              src="https://rukminim1.flixcart.com/image/416/416/xif0q/refrigerator-new/x/5/6/-original-imagm7rjcsguwgsj.jpeg?q=70"
+              height="100"
+            />
+          </a>
+          <div class="info">
+            <h3>Refrigerator</h3>
+            <h3><p>Starting</p></h3>
+            <h3 id="hh">@Rs.12000</h3>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+        <p style="
+        position: absolute;
+        /* top: 256px; */
+        left: 45%;
+        /* color: green; */
+        font-size: 20px;
+        font-weight: bold;
+        bottom: -163px;
+        color: green;
+    ">Refrigerator</p>
+        <div class="gallery">
+          <a
+            href="https://rukminim1.flixcart.com/image/416/416/kph8h3k0/television/k/9/h/40y1-40fa1a00-oneplus-original-imag3p45tdgyvpqa.jpeg?q=70"
+          >
+            <img
+              src="https://rukminim1.flixcart.com/image/416/416/kph8h3k0/television/k/9/h/40y1-40fa1a00-oneplus-original-imag3p45tdgyvpqa.jpeg?q=70"
+              height="100"
+            />
+          </a>
+          <div class="info">
+            <h3>Excluve TV</h3>
+            <h3><p>Starting</p></h3>
+            <h3 id="hh">@Rs.10000</h3>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+        
+      </div>
+<p style="
+position: absolute;
+/* top: 256px; */
+left: 81%;
+/* color: green; */
+font-size: 20px;
+font-weight: bold;
+bottom: -163px;
+color: green;
+">TV</p>
+
+      <div class="card">
+        <div class="gallery">
+          <a
+            href="https://rukminim1.flixcart.com/image/416/416/xif0q/air-conditioner-new/1/g/2/-original-imagnxcqg9ghgwkt.jpeg?q=70"
+          >
+            <img
+              src="https://rukminim1.flixcart.com/image/416/416/xif0q/air-conditioner-new/1/g/2/-original-imagnxcqg9ghgwkt.jpeg?q=70"
+              height="100"
+            />
+          </a>
+          <div class="info">
+            <h3>Air Conditioner</h3>
+            <h3><p>Starting</p></h3>
+            <h3 id="hh">@Rs.15000</h3>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+       
+        <div class="gallery">
+          <a
+            href="https://rukminim1.flixcart.com/image/416/416/xif0q/refrigerator-new/x/5/6/-original-imagm7rjcsguwgsj.jpeg?q=70"
+          >
+            <img
+              src="https://rukminim1.flixcart.com/image/416/416/xif0q/refrigerator-new/x/5/6/-original-imagm7rjcsguwgsj.jpeg?q=70"
+              height="100"
+            />
+          </a>
+          <div class="info">
+            <h3>Refrigerator</h3>
+            <h3><p>Starting</p></h3>
+            <h3 id="hh">@Rs.12000</h3>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+
+        <div class="gallery">
+          <a
+            href="https://rukminim1.flixcart.com/image/416/416/kph8h3k0/television/k/9/h/40y1-40fa1a00-oneplus-original-imag3p45tdgyvpqa.jpeg?q=70"
+          >
+            <img
+              src="https://rukminim1.flixcart.com/image/416/416/kph8h3k0/television/k/9/h/40y1-40fa1a00-oneplus-original-imag3p45tdgyvpqa.jpeg?q=70"
+              height="100"
+            />
+          </a>
+          <div class="info">
+            <h3>Excluve TV</h3>
+            <h3><p>Starting</p></h3>
+            <h3 id="hh">@Rs.10000</h3>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+        
+      </div>
+      <div class="card">
+        <div class="gallery">
+          <a
+            href="https://rukminim1.flixcart.com/image/416/416/xif0q/air-conditioner-new/1/g/2/-original-imagnxcqg9ghgwkt.jpeg?q=70"
+          >
+            <img
+              src="https://rukminim1.flixcart.com/image/416/416/xif0q/air-conditioner-new/1/g/2/-original-imagnxcqg9ghgwkt.jpeg?q=70"
+              height="100"
+            />
+          </a>
+          <div class="info">
+            <h3>Air Conditioner</h3>
+            <h3><p>Starting</p></h3>
+            <h3 id="hh">@Rs.15000</h3>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+       
+        <div class="gallery">
+          <a
+            href="https://rukminim1.flixcart.com/image/416/416/xif0q/refrigerator-new/x/5/6/-original-imagm7rjcsguwgsj.jpeg?q=70"
+          >
+            <img
+              src="https://rukminim1.flixcart.com/image/416/416/xif0q/refrigerator-new/x/5/6/-original-imagm7rjcsguwgsj.jpeg?q=70"
+              height="100"
+            />
+          </a>
+          <div class="info">
+            <h3>Refrigerator</h3>
+            <h3><p>Starting</p></h3>
+            <h3 id="hh">@Rs.12000</h3>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+
+        <div class="gallery">
+          <a
+            href="https://rukminim1.flixcart.com/image/416/416/kph8h3k0/television/k/9/h/40y1-40fa1a00-oneplus-original-imag3p45tdgyvpqa.jpeg?q=70"
+          >
+            <img
+              src="https://rukminim1.flixcart.com/image/416/416/kph8h3k0/television/k/9/h/40y1-40fa1a00-oneplus-original-imag3p45tdgyvpqa.jpeg?q=70"
+              height="100"
+            />
+          </a>
+          <div class="info">
+            <h3>Excluve TV</h3>
+            <h3><p>Starting</p></h3>
+            <h3 id="hh">@Rs.10000</h3>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+        
+      </div> <div class="card">
+        <div class="gallery">
+          <a
+            href="https://rukminim1.flixcart.com/image/416/416/xif0q/air-conditioner-new/1/g/2/-original-imagnxcqg9ghgwkt.jpeg?q=70"
+          >
+            <img
+              src="https://rukminim1.flixcart.com/image/416/416/xif0q/air-conditioner-new/1/g/2/-original-imagnxcqg9ghgwkt.jpeg?q=70"
+              height="100"
+            />
+          </a>
+          <div class="info">
+            <h3>Air Conditioner</h3>
+            <h3><p>Starting</p></h3>
+            <h3 id="hh">@Rs.15000</h3>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+       
+        <div class="gallery">
+          <a
+            href="https://rukminim1.flixcart.com/image/416/416/xif0q/refrigerator-new/x/5/6/-original-imagm7rjcsguwgsj.jpeg?q=70"
+          >
+            <img
+              src="https://rukminim1.flixcart.com/image/416/416/xif0q/refrigerator-new/x/5/6/-original-imagm7rjcsguwgsj.jpeg?q=70"
+              height="100"
+            />
+          </a>
+          <div class="info">
+            <h3>Refrigerator</h3>
+            <h3><p>Starting</p></h3>
+            <h3 id="hh">@Rs.12000</h3>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+
+        <div class="gallery">
+          <a
+            href="https://rukminim1.flixcart.com/image/416/416/kph8h3k0/television/k/9/h/40y1-40fa1a00-oneplus-original-imag3p45tdgyvpqa.jpeg?q=70"
+          >
+            <img
+              src="https://rukminim1.flixcart.com/image/416/416/kph8h3k0/television/k/9/h/40y1-40fa1a00-oneplus-original-imag3p45tdgyvpqa.jpeg?q=70"
+              height="100"
+            />
+          </a>
+          <div class="info">
+            <h3>Excluve TV</h3>
+            <h3><p>Starting</p></h3>
+            <h3 id="hh">@Rs.10000</h3>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+        
+      </div> <div class="card">
+        <div class="gallery">
+          <a
+            href="https://rukminim1.flixcart.com/image/416/416/xif0q/air-conditioner-new/1/g/2/-original-imagnxcqg9ghgwkt.jpeg?q=70"
+          >
+            <img
+              src="https://rukminim1.flixcart.com/image/416/416/xif0q/air-conditioner-new/1/g/2/-original-imagnxcqg9ghgwkt.jpeg?q=70"
+              height="100"
+            />
+          </a>
+          <div class="info">
+            <h3>Air Conditioner</h3>
+            <h3><p>Starting</p></h3>
+            <h3 id="hh">@Rs.15000</h3>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+       
+        <div class="gallery">
+          <a
+            href="https://rukminim1.flixcart.com/image/416/416/xif0q/refrigerator-new/x/5/6/-original-imagm7rjcsguwgsj.jpeg?q=70"
+          >
+            <img
+              src="https://rukminim1.flixcart.com/image/416/416/xif0q/refrigerator-new/x/5/6/-original-imagm7rjcsguwgsj.jpeg?q=70"
+              height="100"
+            />
+          </a>
+          <div class="info">
+            <h3>Refrigerator</h3>
+            <h3><p>Starting</p></h3>
+            <h3 id="hh">@Rs.12000</h3>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+
+        <div class="gallery">
+          <a
+            href="https://rukminim1.flixcart.com/image/416/416/kph8h3k0/television/k/9/h/40y1-40fa1a00-oneplus-original-imag3p45tdgyvpqa.jpeg?q=70"
+          >
+            <img
+              src="https://rukminim1.flixcart.com/image/416/416/kph8h3k0/television/k/9/h/40y1-40fa1a00-oneplus-original-imag3p45tdgyvpqa.jpeg?q=70"
+              height="100"
+            />
+          </a>
+          <div class="info">
+            <h3>Excluve TV</h3>
+            <h3><p>Starting</p></h3>
+            <h3 id="hh">@Rs.10000</h3>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+        
+      </div> <div class="card">
+        <div class="gallery">
+          <a
+            href="https://rukminim1.flixcart.com/image/416/416/xif0q/air-conditioner-new/1/g/2/-original-imagnxcqg9ghgwkt.jpeg?q=70"
+          >
+            <img
+              src="https://rukminim1.flixcart.com/image/416/416/xif0q/air-conditioner-new/1/g/2/-original-imagnxcqg9ghgwkt.jpeg?q=70"
+              height="100"
+            />
+          </a>
+          <div class="info">
+            <h3>Air Conditioner</h3>
+            <h3><p>Starting</p></h3>
+            <h3 id="hh">@Rs.15000</h3>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+       
+        <div class="gallery">
+          <a
+            href="https://rukminim1.flixcart.com/image/416/416/xif0q/refrigerator-new/x/5/6/-original-imagm7rjcsguwgsj.jpeg?q=70"
+          >
+            <img
+              src="https://rukminim1.flixcart.com/image/416/416/xif0q/refrigerator-new/x/5/6/-original-imagm7rjcsguwgsj.jpeg?q=70"
+              height="100"
+            />
+          </a>
+          <div class="info">
+            <h3>Refrigerator</h3>
+            <h3><p>Starting</p></h3>
+            <h3 id="hh">@Rs.12000</h3>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+
+        <div class="gallery">
+          <a
+            href="https://rukminim1.flixcart.com/image/416/416/kph8h3k0/television/k/9/h/40y1-40fa1a00-oneplus-original-imag3p45tdgyvpqa.jpeg?q=70"
+          >
+            <img
+              src="https://rukminim1.flixcart.com/image/416/416/kph8h3k0/television/k/9/h/40y1-40fa1a00-oneplus-original-imag3p45tdgyvpqa.jpeg?q=70"
+              height="100"
+            />
+          </a>
+          <div class="info">
+            <h3>Excluve TV</h3>
+            <h3><p>Starting</p></h3>
+            <h3 id="hh">@Rs.10000</h3>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+        
+      </div> <div class="card">
+        <div class="gallery">
+          <a
+            href="https://rukminim1.flixcart.com/image/416/416/xif0q/air-conditioner-new/1/g/2/-original-imagnxcqg9ghgwkt.jpeg?q=70"
+          >
+            <img
+              src="https://rukminim1.flixcart.com/image/416/416/xif0q/air-conditioner-new/1/g/2/-original-imagnxcqg9ghgwkt.jpeg?q=70"
+              height="100"
+            />
+          </a>
+          <div class="info">
+            <h3>Air Conditioner</h3>
+            <h3><p>Starting</p></h3>
+            <h3 id="hh">@Rs.15000</h3>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+       
+        <div class="gallery">
+          <a
+            href="https://rukminim1.flixcart.com/image/416/416/xif0q/refrigerator-new/x/5/6/-original-imagm7rjcsguwgsj.jpeg?q=70"
+          >
+            <img
+              src="https://rukminim1.flixcart.com/image/416/416/xif0q/refrigerator-new/x/5/6/-original-imagm7rjcsguwgsj.jpeg?q=70"
+              height="100"
+            />
+          </a>
+          <div class="info">
+            <h3>Refrigerator</h3>
+            <h3><p>Starting</p></h3>
+            <h3 id="hh">@Rs.12000</h3>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+
+        <div class="gallery">
+          <a
+            href="https://rukminim1.flixcart.com/image/416/416/kph8h3k0/television/k/9/h/40y1-40fa1a00-oneplus-original-imag3p45tdgyvpqa.jpeg?q=70"
+          >
+            <img
+              src="https://rukminim1.flixcart.com/image/416/416/kph8h3k0/television/k/9/h/40y1-40fa1a00-oneplus-original-imag3p45tdgyvpqa.jpeg?q=70"
+              height="100"
+            />
+          </a>
+          <div class="info">
+            <h3>Excluve TV</h3>
+            <h3><p>Starting</p></h3>
+            <h3 id="hh">@Rs.10000</h3>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+        
+      </div> <div class="card">
+        <div class="gallery">
+          <a
+            href="https://rukminim1.flixcart.com/image/416/416/xif0q/air-conditioner-new/1/g/2/-original-imagnxcqg9ghgwkt.jpeg?q=70"
+          >
+            <img
+              src="https://rukminim1.flixcart.com/image/416/416/xif0q/air-conditioner-new/1/g/2/-original-imagnxcqg9ghgwkt.jpeg?q=70"
+              height="100"
+            />
+          </a>
+          <div class="info">
+            <h3>Air Conditioner</h3>
+            <h3><p>Starting</p></h3>
+            <h3 id="hh">@Rs.15000</h3>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+       
+        <div class="gallery">
+          <a
+            href="https://rukminim1.flixcart.com/image/416/416/xif0q/refrigerator-new/x/5/6/-original-imagm7rjcsguwgsj.jpeg?q=70"
+          >
+            <img
+              src="https://rukminim1.flixcart.com/image/416/416/xif0q/refrigerator-new/x/5/6/-original-imagm7rjcsguwgsj.jpeg?q=70"
+              height="100"
+            />
+          </a>
+          <div class="info">
+            <h3>Refrigerator</h3>
+            <h3><p>Starting</p></h3>
+            <h3 id="hh">@Rs.12000</h3>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+
+        <div class="gallery">
+          <a
+            href="https://rukminim1.flixcart.com/image/416/416/kph8h3k0/television/k/9/h/40y1-40fa1a00-oneplus-original-imag3p45tdgyvpqa.jpeg?q=70"
+          >
+            <img
+              src="https://rukminim1.flixcart.com/image/416/416/kph8h3k0/television/k/9/h/40y1-40fa1a00-oneplus-original-imag3p45tdgyvpqa.jpeg?q=70"
+              height="100"
+            />
+          </a>
+          <div class="info">
+            <h3>Excluve TV</h3>
+            <h3><p>Starting</p></h3>
+            <h3 id="hh">@Rs.10000</h3>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+        
+      </div> <div class="card">
+        <div class="gallery">
+          <a
+            href="https://rukminim1.flixcart.com/image/416/416/xif0q/air-conditioner-new/1/g/2/-original-imagnxcqg9ghgwkt.jpeg?q=70"
+          >
+            <img
+              src="https://rukminim1.flixcart.com/image/416/416/xif0q/air-conditioner-new/1/g/2/-original-imagnxcqg9ghgwkt.jpeg?q=70"
+              height="100"
+            />
+          </a>
+          <div class="info">
+            <h3>Air Conditioner</h3>
+            <h3><p>Starting</p></h3>
+            <h3 id="hh">@Rs.15000</h3>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+       
+        <div class="gallery">
+          <a
+            href="https://rukminim1.flixcart.com/image/416/416/xif0q/refrigerator-new/x/5/6/-original-imagm7rjcsguwgsj.jpeg?q=70"
+          >
+            <img
+              src="https://rukminim1.flixcart.com/image/416/416/xif0q/refrigerator-new/x/5/6/-original-imagm7rjcsguwgsj.jpeg?q=70"
+              height="100"
+            />
+          </a>
+          <div class="info">
+            <h3>Refrigerator</h3>
+            <h3><p>Starting</p></h3>
+            <h3 id="hh">@Rs.12000</h3>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+
+        <div class="gallery">
+          <a
+            href="https://rukminim1.flixcart.com/image/416/416/kph8h3k0/television/k/9/h/40y1-40fa1a00-oneplus-original-imag3p45tdgyvpqa.jpeg?q=70"
+          >
+            <img
+              src="https://rukminim1.flixcart.com/image/416/416/kph8h3k0/television/k/9/h/40y1-40fa1a00-oneplus-original-imag3p45tdgyvpqa.jpeg?q=70"
+              height="100"
+            />
+          </a>
+          <div class="info">
+            <h3>Excluve TV</h3>
+            <h3><p>Starting</p></h3>
+            <h3 id="hh">@Rs.10000</h3>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+        
+      </div> <div class="card">
+        <div class="gallery">
+          <a
+            href="https://rukminim1.flixcart.com/image/416/416/xif0q/air-conditioner-new/1/g/2/-original-imagnxcqg9ghgwkt.jpeg?q=70"
+          >
+            <img
+              src="https://rukminim1.flixcart.com/image/416/416/xif0q/air-conditioner-new/1/g/2/-original-imagnxcqg9ghgwkt.jpeg?q=70"
+              height="100"
+            />
+          </a>
+          <div class="info">
+            <h3>Air Conditioner</h3>
+            <h3><p>Starting</p></h3>
+            <h3 id="hh">@Rs.15000</h3>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+       
+        <div class="gallery">
+          <a
+            href="https://rukminim1.flixcart.com/image/416/416/xif0q/refrigerator-new/x/5/6/-original-imagm7rjcsguwgsj.jpeg?q=70"
+          >
+            <img
+              src="https://rukminim1.flixcart.com/image/416/416/xif0q/refrigerator-new/x/5/6/-original-imagm7rjcsguwgsj.jpeg?q=70"
+              height="100"
+            />
+          </a>
+          <div class="info">
+            <h3>Refrigerator</h3>
+            <h3><p>Starting</p></h3>
+            <h3 id="hh">@Rs.12000</h3>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+
+        <div class="gallery">
+          <a
+            href="https://rukminim1.flixcart.com/image/416/416/kph8h3k0/television/k/9/h/40y1-40fa1a00-oneplus-original-imag3p45tdgyvpqa.jpeg?q=70"
+          >
+            <img
+              src="https://rukminim1.flixcart.com/image/416/416/kph8h3k0/television/k/9/h/40y1-40fa1a00-oneplus-original-imag3p45tdgyvpqa.jpeg?q=70"
+              height="100"
+            />
+          </a>
+          <div class="info">
+            <h3>Excluve TV</h3>
+            <h3><p>Starting</p></h3>
+            <h3 id="hh">@Rs.10000</h3>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+        
+      </div> <div class="card">
+        <div class="gallery">
+          <a
+            href="https://rukminim1.flixcart.com/image/416/416/xif0q/air-conditioner-new/1/g/2/-original-imagnxcqg9ghgwkt.jpeg?q=70"
+          >
+            <img
+              src="https://rukminim1.flixcart.com/image/416/416/xif0q/air-conditioner-new/1/g/2/-original-imagnxcqg9ghgwkt.jpeg?q=70"
+              height="100"
+            />
+          </a>
+          <div class="info">
+            <h3>Air Conditioner</h3>
+            <h3><p>Starting</p></h3>
+            <h3 id="hh">@Rs.15000</h3>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+       
+        <div class="gallery">
+          <a
+            href="https://rukminim1.flixcart.com/image/416/416/xif0q/refrigerator-new/x/5/6/-original-imagm7rjcsguwgsj.jpeg?q=70"
+          >
+            <img
+              src="https://rukminim1.flixcart.com/image/416/416/xif0q/refrigerator-new/x/5/6/-original-imagm7rjcsguwgsj.jpeg?q=70"
+              height="100"
+            />
+          </a>
+          <div class="info">
+            <h3>Refrigerator</h3>
+            <h3><p>Starting</p></h3>
+            <h3 id="hh">@Rs.12000</h3>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+
+        <div class="gallery">
+          <a
+            href="https://rukminim1.flixcart.com/image/416/416/kph8h3k0/television/k/9/h/40y1-40fa1a00-oneplus-original-imag3p45tdgyvpqa.jpeg?q=70"
+          >
+            <img
+              src="https://rukminim1.flixcart.com/image/416/416/kph8h3k0/television/k/9/h/40y1-40fa1a00-oneplus-original-imag3p45tdgyvpqa.jpeg?q=70"
+              height="100"
+            />
+          </a>
+          <div class="info">
+            <h3>Excluve TV</h3>
+            <h3><p>Starting</p></h3>
+            <h3 id="hh">@Rs.10000</h3>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+        
+      </div> <div class="card">
+        <div class="gallery">
+          <a
+            href="https://rukminim1.flixcart.com/image/416/416/xif0q/air-conditioner-new/1/g/2/-original-imagnxcqg9ghgwkt.jpeg?q=70"
+          >
+            <img
+              src="https://rukminim1.flixcart.com/image/416/416/xif0q/air-conditioner-new/1/g/2/-original-imagnxcqg9ghgwkt.jpeg?q=70"
+              height="100"
+            />
+          </a>
+          <div class="info">
+            <h3>Air Conditioner</h3>
+            <h3><p>Starting</p></h3>
+            <h3 id="hh">@Rs.15000</h3>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+       
+        <div class="gallery">
+          <a
+            href="https://rukminim1.flixcart.com/image/416/416/xif0q/refrigerator-new/x/5/6/-original-imagm7rjcsguwgsj.jpeg?q=70"
+          >
+            <img
+              src="https://rukminim1.flixcart.com/image/416/416/xif0q/refrigerator-new/x/5/6/-original-imagm7rjcsguwgsj.jpeg?q=70"
+              height="100"
+            />
+          </a>
+          <div class="info">
+            <h3>Refrigerator</h3>
+            <h3><p>Starting</p></h3>
+            <h3 id="hh">@Rs.12000</h3>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+
+        <div class="gallery">
+          <a
+            href="https://rukminim1.flixcart.com/image/416/416/kph8h3k0/television/k/9/h/40y1-40fa1a00-oneplus-original-imag3p45tdgyvpqa.jpeg?q=70"
+          >
+            <img
+              src="https://rukminim1.flixcart.com/image/416/416/kph8h3k0/television/k/9/h/40y1-40fa1a00-oneplus-original-imag3p45tdgyvpqa.jpeg?q=70"
+              height="100"
+            />
+          </a>
+          <div class="info">
+            <h3>Excluve TV</h3>
+            <h3><p>Starting</p></h3>
+            <h3 id="hh">@Rs.10000</h3>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+        
+      </div>
+      
+    </div>
+  </body>
+</html>
